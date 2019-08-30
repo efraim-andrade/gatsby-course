@@ -1,9 +1,28 @@
-import React from 'react';
+import React from "react"
+import { Link } from "gatsby"
 
-// import { Container } from './styles';
+import Layout from "../components/layout"
+import SEO from "../components/seo"
 
 export default function AboutPage() {
   return (
-    <h1>about page</h1>
-  );
+    <Layout>
+      <SEO title="About page" />
+
+      <h1>about page</h1>
+
+      <ul>
+        <li>
+          <Link to="/" activeStyle={{ color: "red" }}>
+            Home
+          </Link>
+        </li>
+        <li>
+          <Link to="/about" activeStyle={{ color: "red" }}>
+            About
+          </Link>
+        </li>
+      </ul>
+    </Layout>
+  )
 }
