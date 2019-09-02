@@ -31,7 +31,10 @@ module.exports = {
     camelcase: "off",
     "no-console": ["error", { allow: ["tron"] }],
     "react-hooks/rules-of-hooks": "error",
-    "react-hooks/exhaustive-deps": "warn"
+    "react-hooks/exhaustive-deps": "warn",
+    "import/no-unresolved": "off",
+    "import/no-extraneous-dependencies": "off",
+    "react/no-array-index-key": "off"
   },
   settings: {
     "import/resolver": {
