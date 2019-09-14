@@ -8,7 +8,7 @@ export default function Avatar() {
     query {
       avatarImage: file(relativePath: { eq: "me.jpeg" }) {
         childImageSharp {
-          fixed(width: 60, height: 60) {
+          fixed(width: 120, height: 120) {
             ...GatsbyImageSharpFixed_tracedSVG
           }
         }

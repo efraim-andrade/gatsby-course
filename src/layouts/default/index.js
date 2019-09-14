@@ -1,12 +1,12 @@
 import React from "react"
 import PropTypes from "prop-types"
 
-import Sidebar from "../Sidebar"
+import { Sidebar, Menubar } from "../../components"
 import { Global } from "../../theme"
 
 import * as S from "./styles"
 
-const Layout = ({ children }) => {
+const DefaultLayout = ({ children }) => {
   return (
     <S.Container>
       <Global />
@@ -14,12 +14,14 @@ const Layout = ({ children }) => {
       <Sidebar />
 
       <S.Main>{children}</S.Main>
+
+      <Menubar />
     </S.Container>
   )
 }
 
-Layout.propTypes = {
+DefaultLayout.propTypes = {
   children: PropTypes.node.isRequired,
 }
 
-export default Layout
+export default DefaultLayout

@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Efraim Andrade`,
-    position: "FronEnd/Mobile Developer",
+    position: "FrontEnd/Mobile Developer",
     description: `Membro do time de desenvolvimento da iClouds Sistemas Web, focado em
     soluções com a tecnologia ReactJS, React Native e NodeJS derivadas
     do Javascript`,

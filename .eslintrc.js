@@ -35,12 +35,5 @@ module.exports = {
     "import/no-unresolved": "off",
     "import/no-extraneous-dependencies": "off",
     "react/no-array-index-key": "off"
-  },
-  settings: {
-    "import/resolver": {
-      "babel-plugin-root-import": {
-        rootPathSuffix: "src"
-      },
-    },
-  },
+  }
 };
